@@ -68,7 +68,25 @@ public class SalesItemTest
         salesIte2.removeComment(5);
         assertEquals(2, salesIte2.getNumberOfComments());
     }
+
+    @Test
+    public void TestConstructor()
+    {
+        SalesItem salesIte3 = new SalesItem("Cup", 20);
+        assertEquals("Cup", salesIte3.getName());
+        assertEquals(20, salesIte3.getPrice());
+    }
+
+    @Test
+    public void TestUpvote()
+    {
+        salesIte1.upvoteComment(1);
+        Comment comment1 = salesIte1.findMostHelpfulComment();
+        assertEquals(1, comment1.getVoteCount());
+    }
 }
+
+
 
 
 
