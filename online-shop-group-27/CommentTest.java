@@ -59,14 +59,16 @@ public class CommentTest
         assertEquals(10, comment1.getRating());
     }
 
+
     @Test
-    public void createFalseComment()
+    public void testConstructor()
     {
-        Comment comment3 = new Comment("asdf", "Disgusting", -5);
-        comment3.downvote();
-        assertEquals(0, comment3.getRating());
+        Comment comment3 = new Comment("Doh", "WOW", 8);
+        Comment comment4 = new Comment("Doh", "WOW2", 8);
+        Comment comment5 = new Comment("Doh", "WOW3", -6);
     }
 }
+
 
 
 

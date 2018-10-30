@@ -15,5 +15,5 @@ comment4.target=void\ downVote()
 comment5.params=
 comment5.target=void\ getRating()
 comment6.params=
-comment6.target=void\ createFalseComment()
+comment6.target=void\ testConstructor()
 numComments=7
