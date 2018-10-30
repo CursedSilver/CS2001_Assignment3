@@ -110,7 +110,7 @@ public class SalesItemTest
     public void testRatingInvalid()
     {
         assertEquals(false, salesIte1.addComment("jojo", "I LOVE it", 10000000));
-        assertEquals(5, salesIte1.addComment("Man", "its ok", 5));
+        assertEquals(true, salesIte1.addComment("Man", "its ok", 5));
     }
 
     @Test
