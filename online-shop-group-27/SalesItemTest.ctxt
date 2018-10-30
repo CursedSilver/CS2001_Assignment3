@@ -3,7 +3,15 @@ comment0.target=SalesItemTest
 comment0.text=\n\ The\ test\ class\ SalesItemTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
 comment1.target=SalesItemTest()
+<<<<<<< HEAD
 comment1.text=\n\ Default\ constructor\ for\ test\ class\ SalesItemTest\n
+=======
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ SalesItemTest\r\n
+comment10.params=
+comment10.target=void\ testRatingInvalid()
+comment11.params=
+comment11.target=void\ testFindAuthorComment()
+>>>>>>> 53bff437f1bf367b0d23753868c352064571dc89
 comment2.params=
 comment2.target=void\ setUp()
 comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
@@ -18,4 +26,12 @@ comment6.params=
 comment6.target=void\ TestConstructor()
 comment7.params=
 comment7.target=void\ TestUpvote()
+<<<<<<< HEAD
 numComments=8
+=======
+comment8.params=
+comment8.target=void\ TestMostHelpful()
+comment9.params=
+comment9.target=void\ TestDownvote()
+numComments=12
+>>>>>>> 53bff437f1bf367b0d23753868c352064571dc89
